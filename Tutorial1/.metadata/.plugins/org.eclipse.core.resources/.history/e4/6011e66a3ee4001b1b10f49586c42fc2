@@ -1,0 +1,62 @@
+
+public class Person {
+	public static void main(String[] args) {
+		Person one = Person('asdf', 1, 'f');
+		Person two = Person('asdf', 1, 'f')
+	}
+	
+	// Data Members
+	private String name;
+	private int age;
+	private char gender;
+
+	// Constructors
+	public Person() {
+		this.name = null;
+		this.age = 0;
+		this.gender = ' ';
+	}
+
+	public Person(String name, int age, char gender) {
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+
+	// Methods
+	public String toString() {
+		String information = "Name: " + this.name + "Age: " + this.age + "Gender: " + this.gender;
+
+		return information;
+	}
+
+	public Boolean equals(Person person1, Person person2) {
+		return (person1.name == person2.name && person1.age == person2.age && person1.gender == person2.gender);
+	}
+
+	// Getters and Setters
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public char getGender() {
+		return gender;
+	}
+
+	public void setGender(char gender) {
+		this.gender = gender;
+	}
+
+}

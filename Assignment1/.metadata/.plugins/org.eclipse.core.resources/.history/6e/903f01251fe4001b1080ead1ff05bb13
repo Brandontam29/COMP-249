@@ -1,0 +1,18 @@
+public class PublicTransportation {
+	// Data Members
+	private double ticketPrice;
+	private int numOfStops;
+
+	// Constructor
+	public PublicTransportation(double ticketPrice, int numOfStops) {
+
+		this.ticketPrice = ticketPrice;
+		this.numOfStops = numOfStops;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

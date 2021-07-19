@@ -1,0 +1,82 @@
+public class CityBus extends PublicTransportation {
+
+	// Data Members
+	private long routeNumber;
+	private int beginOperationYear;
+	private String linename;
+	private String drivername;
+
+	// Constructors
+	public CityBus() {
+		super();
+		routeNumber = 0;
+		beginOperationYear = 0;
+		linename = "";
+		drivername = "";
+	}
+
+	public CityBus(double ticketprice, int numberofstops, long routenumber, int beginOperationYear, String linename,
+			String drivername) {
+		super(ticketprice, numberofstops);
+		this.routeNumber = routenumber;
+		this.beginOperationYear = beginOperationYear;
+		this.linename = linename;
+		this.drivername = drivername;
+	}
+
+	// Copy Constructor
+	public CityBus(CityBus CB) {
+		super(CB);
+		routeNumber = CB.routeNumber;
+		beginOperationYear = CB.beginOperationYear;
+		linename = CB.linename;
+		drivername = CB.drivername;
+	}
+
+	// Getters and Setters
+	public long getroutenumber() {
+		return routeNumber;
+	}
+
+	public int getopyear() {
+		return beginOperationYear;
+	}
+
+	public String getlinename() {
+		return linename;
+	}
+
+	public String getdrivername() {
+		return drivername;
+	}
+
+	public void setroutenumber(long routenumber) {
+		this.routeNumber = routenumber;
+	}
+
+	public void setopyear(int opyear) {
+		this.beginOperationYear = opyear;
+	}
+
+	public void setlinename(String linename) {
+		this.linename = linename;
+	}
+
+	public void setdrivername(String drivername)// mutators
+	{
+		this.drivername = drivername;
+	}
+
+	// Other methods
+	public String toString() {
+		return "This is CityBus no." + routeNumber + " which started operation on year " + beginOperationYear + " named " + linename
+				+ ", which is conducted by " + drivername;
+	}
+
+	public boolean equalto(CityBus CityBus) {
+		if (routeNumber == CityBus.routeNumber && beginOperationYear == CityBus.beginOperationYear && linename == CityBus.linename
+				&& drivername == CityBus.drivername)
+			return true;
+		return false;
+	}
+}

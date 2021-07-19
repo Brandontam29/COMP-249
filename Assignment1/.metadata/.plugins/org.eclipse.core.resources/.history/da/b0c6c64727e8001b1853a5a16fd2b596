@@ -1,0 +1,43 @@
+
+public class Tram extends CityBus {
+
+	// Data Members
+	private int maxSpeed;
+
+	// Constructors
+	public Tram() {
+		super();
+		maxSpeed = 0;
+	}
+
+	public Tram(double ticketprice, int numberofstops, long routenumber, int opyear, String linename, String drivername,
+			int MAXSPD) {
+		super(ticketprice, numberofstops, routenumber, opyear, linename, drivername);
+		this.maxSpeed = MAXSPD;
+	}
+
+	public Tram(Tram Tram) {
+		super(Tram);
+		maxSpeed = Tram.maxSpeed;
+	}
+
+	// Methods
+	public String toString() {
+		return " and it operates at " + maxSpeed + "km/h";
+	}
+
+	public boolean equalto(Tram Tram) {
+		if (maxSpeed == Tram.maxSpeed)
+			return true;
+		return false;
+	}
+
+	// Getters and Setters
+	public int getMaxSpeed() {
+		return maxSpeed;
+	}
+
+	public void setMaxSpeed(int maxSpeed) {
+		this.maxSpeed = maxSpeed;
+	}
+}

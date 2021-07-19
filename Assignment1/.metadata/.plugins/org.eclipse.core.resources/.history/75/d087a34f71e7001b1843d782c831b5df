@@ -1,0 +1,57 @@
+//-----------------------------------------------------------------------------------------------------
+//Assignment number 1
+//Written by Kai Yuan Chen 40130869
+//For COMP 249-U - Summer 2021
+//-----------------------------------------------------------------------------------------------------
+public class PublicTransportation {
+	private double ticketprice;
+	private int numberofstops;
+
+	public PublicTransportation() // default constructor
+	{
+		ticketprice = 0;
+		numberofstops = 0;
+	}
+
+	public PublicTransportation(double ticketprice, int numberofstops) // parametrization
+	{
+		this.ticketprice = ticketprice;
+		this.numberofstops = numberofstops;
+	}
+
+	public PublicTransportation(PublicTransportation PB) // copyconstructor
+	{
+		ticketprice = PB.ticketprice;
+		numberofstops = PB.numberofstops;
+	}
+
+	public double getticketprice() {
+		return ticketprice;
+	}
+
+	public int getnumberofstops() // both accessors
+	{
+		return numberofstops;
+	}
+
+	public void seticketprice(double ticketprice) {
+		this.ticketprice = ticketprice;
+	}
+
+	public void setnumberofstops(int numberofstops) // both mutators
+	{
+		this.numberofstops = numberofstops;
+	}
+
+	public String toString() // toString Method
+	{
+		return "The total travel is going to cost " + ticketprice + " and it is going to have " + numberofstops
+				+ " stops.";
+	}
+
+	public boolean equalto(PublicTransportation PublicTransportation) {
+		if (ticketprice == PublicTransportation.ticketprice && numberofstops == PublicTransportation.numberofstops)
+			return true;
+		return false;
+	}
+}

@@ -1,0 +1,43 @@
+
+public class Ferry extends PublicTransportation {
+	// Data Members
+	private int buildYear;
+	private String shipName;
+
+	// Constructors
+	public Ferry() {
+		super();
+		buildYear = 0;
+		shipName = null;
+	}
+
+	public Ferry(double ticketPrice, int numberOfStops, int buildYear, String shipname) {
+		super(ticketPrice, numberOfStops);
+		this.buildYear = buildYear;
+		this.shipName = shipname;
+	}
+
+	public Ferry(Ferry Ferry) {
+		super(Ferry);
+		buildYear = Ferry.buildYear;
+		shipName = Ferry.shipName;
+	}
+
+	// Getters and Setters
+	public int getBuildYear() {
+		return buildYear;
+	}
+
+	public void setBuildYear(int buildYear) {
+		this.buildYear = buildYear;
+	}
+
+	public String getShipName() {
+		return shipName;
+	}
+
+	public void setShipName(String shipName) {
+		this.shipName = shipName;
+	}
+
+}

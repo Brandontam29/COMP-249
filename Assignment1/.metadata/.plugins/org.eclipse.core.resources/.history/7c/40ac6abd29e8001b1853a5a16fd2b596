@@ -1,0 +1,7 @@
+
+public class Ferry extends PublicTransportation {
+	// Data Members
+	private int buildYear;
+	private String shipName;
+
+}

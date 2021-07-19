@@ -1,0 +1,674 @@
+﻿2021-07-05 11:59:49.698 - ShareX starting.
+2021-07-05 11:59:49.703 - Version: 13.5
+2021-07-05 11:59:49.703 - Build: Release
+2021-07-05 11:59:49.703 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-05 11:59:49.703 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-05 11:59:49.704 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-05 11:59:49.704 - Running as elevated process: False
+2021-07-05 11:59:49.723 - Flags: SilentRun
+2021-07-05 11:59:49.797 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-05 11:59:50.941 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-05 11:59:50.953 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-05 11:59:50.963 - MainForm init started.
+2021-07-05 11:59:51.330 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-05 11:59:51.334 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-05 11:59:51.593 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-05 11:59:51.910 - MainForm init finished.
+2021-07-05 11:59:52.828 - Startup time: 3344 ms
+2021-07-05 11:59:52.830 - CommandLine: -silent
+2021-07-05 11:59:52.858 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-05 11:59:52.858 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-05 11:59:52.858 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-05 11:59:52.858 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-05 11:59:52.858 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-05 11:59:52.860 - HotkeyManager started.
+2021-07-05 11:59:52.862 - WatchFolderManager started.
+2021-07-05 17:17:11.482 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-05 17:17:11.487 - Executing: Capture region
+2021-07-05 17:17:18.316 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-07-05 17:17:18.427 - Task status: Preparing
+2021-07-05 17:17:18.441 - Image copied to clipboard.
+2021-07-05 17:17:18.456 - Image saved to file: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_05__86.png
+2021-07-05 17:17:18.464 - Upload started. Filename: 2021_07_05__86.png, Filepath: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_05__86.png
+2021-07-05 17:17:20.027 - Upload completed. URL: https://i.imgur.com/yVTtNTn.png, Duration: 1557 ms
+2021-07-05 17:17:20.036 - Task completed. Filename: 2021_07_05__86.png, Duration: 1606 ms
+2021-07-05 17:54:53.774 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-05 17:54:53.774 - Executing: Capture region
+2021-07-05 17:55:03.684 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-07-05 17:55:03.690 - Task status: Preparing
+2021-07-05 17:55:03.747 - Image copied to clipboard.
+2021-07-05 17:55:03.791 - Image saved to file: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_05__87.png
+2021-07-05 17:55:03.804 - Upload started. Filename: 2021_07_05__87.png, Filepath: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_05__87.png
+2021-07-05 17:55:05.603 - Upload completed. URL: https://i.imgur.com/VldOBoX.png, Duration: 1798 ms
+2021-07-05 17:55:05.604 - Task completed. Filename: 2021_07_05__87.png, Duration: 1914 ms
+2021-07-06 00:49:54.054 - ShareX closing.
+2021-07-06 00:49:54.064 - ApplicationConfig save started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 00:49:54.445 - ApplicationConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 00:49:54.445 - UploadersConfig save started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 00:49:54.554 - UploadersConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 00:49:54.554 - HotkeysConfig save started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 00:49:54.679 - HotkeysConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 00:49:54.679 - ShareX closed.
+2021-07-06 11:33:23.437 - ShareX starting.
+2021-07-06 11:33:23.441 - Version: 13.5
+2021-07-06 11:33:23.441 - Build: Release
+2021-07-06 11:33:23.441 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-06 11:33:23.441 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-06 11:33:23.442 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-06 11:33:23.443 - Running as elevated process: False
+2021-07-06 11:33:23.454 - Flags: SilentRun
+2021-07-06 11:33:23.516 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 11:33:24.869 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 11:33:24.880 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 11:33:24.892 - MainForm init started.
+2021-07-06 11:33:25.150 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 11:33:25.168 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 11:33:25.417 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 11:33:25.875 - MainForm init finished.
+2021-07-06 11:33:26.665 - Startup time: 3374 ms
+2021-07-06 11:33:26.668 - CommandLine: -silent
+2021-07-06 11:33:26.680 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-06 11:33:26.681 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-06 11:33:26.681 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-06 11:33:26.681 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-06 11:33:26.681 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-06 11:33:26.684 - HotkeyManager started.
+2021-07-06 11:33:26.685 - WatchFolderManager started.
+2021-07-06 11:33:26.698 - GitHub update check failed:
+System.Net.WebException: The remote name could not be resolved: 'api.github.com'
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at ShareX.HelpersLib.GitHubUpdateChecker.GetReleases()
+   at ShareX.HelpersLib.GitHubUpdateChecker.GetLatestRelease(Boolean includePreRelease)
+   at ShareX.HelpersLib.GitHubUpdateChecker.CheckUpdate()
+2021-07-06 13:41:51.339 - ShareX closing.
+2021-07-06 13:41:51.344 - ApplicationConfig save started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 13:41:51.621 - ApplicationConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 13:41:51.622 - UploadersConfig save started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 13:41:51.765 - UploadersConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 13:41:51.766 - HotkeysConfig save started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 13:41:51.961 - HotkeysConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 13:41:51.962 - ShareX closed.
+2021-07-06 18:30:16.375 - ShareX starting.
+2021-07-06 18:30:16.379 - Version: 13.5
+2021-07-06 18:30:16.379 - Build: Release
+2021-07-06 18:30:16.379 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-06 18:30:16.379 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-06 18:30:16.380 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-06 18:30:16.380 - Running as elevated process: False
+2021-07-06 18:30:16.391 - Flags: SilentRun
+2021-07-06 18:30:16.449 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 18:30:17.171 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 18:30:17.177 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 18:30:17.184 - MainForm init started.
+2021-07-06 18:30:17.421 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 18:30:17.428 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 18:30:17.640 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 18:30:17.928 - MainForm init finished.
+2021-07-06 18:30:18.533 - Startup time: 2288 ms
+2021-07-06 18:30:18.535 - CommandLine: -silent
+2021-07-06 18:30:18.560 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-06 18:30:18.560 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-06 18:30:18.560 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-06 18:30:18.560 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-06 18:30:18.560 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-06 18:30:18.562 - HotkeyManager started.
+2021-07-06 18:30:18.563 - WatchFolderManager started.
+2021-07-06 18:44:54.711 - ShareX closing.
+2021-07-06 18:44:54.711 - ApplicationConfig save started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 18:44:55.023 - ApplicationConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 18:44:55.023 - UploadersConfig save started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 18:44:55.133 - UploadersConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 18:44:55.133 - HotkeysConfig save started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 18:44:55.289 - HotkeysConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 18:44:55.289 - ShareX closed.
+2021-07-06 20:16:41.250 - ShareX starting.
+2021-07-06 20:16:41.254 - Version: 13.5
+2021-07-06 20:16:41.254 - Build: Release
+2021-07-06 20:16:41.254 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-06 20:16:41.254 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-06 20:16:41.255 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-06 20:16:41.256 - Running as elevated process: False
+2021-07-06 20:16:41.269 - Flags: SilentRun
+2021-07-06 20:16:41.331 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 20:16:42.225 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 20:16:42.237 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 20:16:42.243 - MainForm init started.
+2021-07-06 20:16:42.556 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 20:16:42.565 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 20:16:42.923 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 20:16:43.052 - MainForm init finished.
+2021-07-06 20:16:43.196 - Exception:
+System.Net.WebException: The remote name could not be resolved: 'getsharex.com'
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at ShareX.NewsManager.GetNews()
+   at ShareX.NewsManager.UpdateNews()
+2021-07-06 20:16:43.726 - Startup time: 2635 ms
+2021-07-06 20:16:43.728 - CommandLine: -silent
+2021-07-06 20:16:43.729 - GitHub update check failed:
+System.Net.WebException: The remote name could not be resolved: 'api.github.com'
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at ShareX.HelpersLib.GitHubUpdateChecker.GetReleases()
+   at ShareX.HelpersLib.GitHubUpdateChecker.GetLatestRelease(Boolean includePreRelease)
+   at ShareX.HelpersLib.GitHubUpdateChecker.CheckUpdate()
+2021-07-06 20:16:43.742 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-06 20:16:43.743 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-06 20:16:43.743 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-06 20:16:43.743 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-06 20:16:43.743 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-06 20:16:43.745 - HotkeyManager started.
+2021-07-06 20:16:43.746 - WatchFolderManager started.
+2021-07-06 20:53:05.688 - ShareX starting.
+2021-07-06 20:53:05.712 - Version: 13.5
+2021-07-06 20:53:05.712 - Build: Release
+2021-07-06 20:53:05.712 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-06 20:53:05.712 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-06 20:53:05.717 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-06 20:53:05.718 - Running as elevated process: False
+2021-07-06 20:53:05.737 - Flags: SilentRun
+2021-07-06 20:53:05.827 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 20:53:06.995 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 20:53:07.013 - MainForm init started.
+2021-07-06 20:53:07.015 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 20:53:07.458 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 20:53:07.465 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 20:53:07.890 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 20:53:08.043 - MainForm init finished.
+2021-07-06 20:53:08.820 - Startup time: 3348 ms
+2021-07-06 20:53:08.824 - CommandLine: -silent
+2021-07-06 20:53:08.853 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-06 20:53:08.853 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-06 20:53:08.853 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-06 20:53:08.853 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-06 20:53:08.853 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-06 20:53:08.855 - HotkeyManager started.
+2021-07-06 20:53:08.856 - WatchFolderManager started.
+2021-07-06 22:13:34.663 - ShareX starting.
+2021-07-06 22:13:34.667 - Version: 13.5
+2021-07-06 22:13:34.667 - Build: Release
+2021-07-06 22:13:34.667 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-06 22:13:34.667 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-06 22:13:34.668 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-06 22:13:34.668 - Running as elevated process: False
+2021-07-06 22:13:34.684 - Flags: SilentRun
+2021-07-06 22:13:34.747 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 22:13:36.172 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 22:13:36.179 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 22:13:36.188 - MainForm init started.
+2021-07-06 22:13:36.501 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 22:13:36.505 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 22:13:36.778 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 22:13:37.113 - MainForm init finished.
+2021-07-06 22:13:37.913 - Startup time: 3484 ms
+2021-07-06 22:13:37.917 - CommandLine: -silent
+2021-07-06 22:13:37.945 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-06 22:13:37.946 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-06 22:13:37.946 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-06 22:13:37.946 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-06 22:13:37.946 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-06 22:13:37.951 - HotkeyManager started.
+2021-07-06 22:13:37.953 - WatchFolderManager started.
+2021-07-06 23:49:23.654 - ShareX closing.
+2021-07-06 23:49:23.659 - ApplicationConfig save started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 23:49:24.068 - ApplicationConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-06 23:49:24.068 - UploadersConfig save started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 23:49:24.193 - UploadersConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-06 23:49:24.193 - HotkeysConfig save started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 23:49:24.333 - HotkeysConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-06 23:49:24.333 - ShareX closed.
+2021-07-07 10:29:43.461 - ShareX starting.
+2021-07-07 10:29:43.465 - Version: 13.5
+2021-07-07 10:29:43.465 - Build: Release
+2021-07-07 10:29:43.465 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-07 10:29:43.465 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-07 10:29:43.466 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-07 10:29:43.467 - Running as elevated process: False
+2021-07-07 10:29:43.483 - Flags: SilentRun
+2021-07-07 10:29:43.550 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-07 10:29:46.369 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-07 10:29:46.376 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-07 10:29:46.383 - MainForm init started.
+2021-07-07 10:29:46.660 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-07 10:29:46.666 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-07 10:29:46.897 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-07 10:29:47.132 - MainForm init finished.
+2021-07-07 10:29:47.190 - Exception:
+System.Net.WebException: The remote name could not be resolved: 'getsharex.com'
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at ShareX.NewsManager.GetNews()
+   at ShareX.NewsManager.UpdateNews()
+2021-07-07 10:29:47.784 - Startup time: 4494 ms
+2021-07-07 10:29:47.787 - CommandLine: -silent
+2021-07-07 10:29:47.801 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-07 10:29:47.801 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-07 10:29:47.802 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-07 10:29:47.802 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-07 10:29:47.802 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-07 10:29:47.804 - HotkeyManager started.
+2021-07-07 10:29:47.805 - WatchFolderManager started.
+2021-07-08 01:07:27.797 - ShareX closing.
+2021-07-08 01:07:27.813 - ApplicationConfig save started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-08 01:07:28.154 - ApplicationConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-08 01:07:28.164 - UploadersConfig save started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-08 01:07:28.300 - UploadersConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-08 01:07:28.300 - HotkeysConfig save started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-08 01:07:28.447 - HotkeysConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-08 01:07:28.447 - ShareX closed.
+2021-07-08 01:16:16.025 - ShareX starting.
+2021-07-08 01:16:16.030 - Version: 13.5
+2021-07-08 01:16:16.030 - Build: Release
+2021-07-08 01:16:16.030 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-08 01:16:16.030 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-08 01:16:16.031 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-08 01:16:16.031 - Running as elevated process: False
+2021-07-08 01:16:16.049 - Flags: SilentRun
+2021-07-08 01:16:16.153 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-08 01:16:17.339 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-08 01:16:17.347 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-08 01:16:17.358 - MainForm init started.
+2021-07-08 01:16:17.614 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-08 01:16:17.621 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-08 01:16:17.837 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-08 01:16:18.186 - MainForm init finished.
+2021-07-08 01:16:18.806 - Startup time: 3000 ms
+2021-07-08 01:16:18.809 - CommandLine: -silent
+2021-07-08 01:16:18.835 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-08 01:16:18.836 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-08 01:16:18.836 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-08 01:16:18.836 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-08 01:16:18.836 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-08 01:16:18.839 - HotkeyManager started.
+2021-07-08 01:16:18.840 - WatchFolderManager started.
+2021-07-08 01:21:22.907 - ShareX closing.
+2021-07-08 01:21:22.907 - ApplicationConfig save started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-08 01:21:23.173 - ApplicationConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-08 01:21:23.173 - UploadersConfig save started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-08 01:21:23.298 - UploadersConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-08 01:21:23.298 - HotkeysConfig save started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-08 01:21:23.423 - HotkeysConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-08 01:21:23.423 - ShareX closed.
+2021-07-08 10:54:11.336 - ShareX starting.
+2021-07-08 10:54:11.343 - Version: 13.5
+2021-07-08 10:54:11.343 - Build: Release
+2021-07-08 10:54:11.343 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-08 10:54:11.343 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-08 10:54:11.344 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-08 10:54:11.344 - Running as elevated process: False
+2021-07-08 10:54:11.365 - Flags: SilentRun
+2021-07-08 10:54:11.474 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-08 10:54:12.090 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-08 10:54:12.098 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-08 10:54:12.108 - MainForm init started.
+2021-07-08 10:54:12.290 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-08 10:54:12.305 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-08 10:54:12.662 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-08 10:54:13.131 - MainForm init finished.
+2021-07-08 10:54:13.773 - Startup time: 2517 ms
+2021-07-08 10:54:13.776 - CommandLine: -silent
+2021-07-08 10:54:13.802 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-08 10:54:13.802 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-08 10:54:13.802 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-08 10:54:13.802 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-08 10:54:13.802 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-08 10:54:13.805 - HotkeyManager started.
+2021-07-08 10:54:13.806 - WatchFolderManager started.
+2021-07-09 00:53:20.912 - ShareX closing.
+2021-07-09 00:53:20.927 - ApplicationConfig save started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-09 00:53:21.305 - ApplicationConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-09 00:53:21.305 - UploadersConfig save started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-09 00:53:21.461 - UploadersConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-09 00:53:21.461 - HotkeysConfig save started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-09 00:53:21.650 - HotkeysConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-09 00:53:21.650 - ShareX closed.
+2021-07-09 10:42:30.875 - ShareX starting.
+2021-07-09 10:42:30.879 - Version: 13.5
+2021-07-09 10:42:30.880 - Build: Release
+2021-07-09 10:42:30.880 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-09 10:42:30.880 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-09 10:42:30.881 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-09 10:42:30.881 - Running as elevated process: False
+2021-07-09 10:42:30.903 - Flags: SilentRun
+2021-07-09 10:42:30.995 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-09 10:42:32.024 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-09 10:42:32.031 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-09 10:42:32.040 - MainForm init started.
+2021-07-09 10:42:32.295 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-09 10:42:32.301 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-09 10:42:32.497 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-09 10:42:32.925 - MainForm init finished.
+2021-07-09 10:42:33.525 - Startup time: 2833 ms
+2021-07-09 10:42:33.527 - CommandLine: -silent
+2021-07-09 10:42:33.550 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-09 10:42:33.550 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-09 10:42:33.550 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-09 10:42:33.550 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-09 10:42:33.550 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-09 10:42:33.553 - HotkeyManager started.
+2021-07-09 10:42:33.554 - WatchFolderManager started.
+2021-07-09 18:42:03.207 - Hotkey triggered. Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-09 18:42:03.211 - Executing: Capture active window
+2021-07-09 18:42:03.369 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-07-09 18:42:03.432 - Task status: Preparing
+2021-07-09 18:42:03.526 - Image copied to clipboard.
+2021-07-09 18:42:03.592 - Image saved to file: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_09__88.png
+2021-07-09 18:42:03.619 - Upload started. Filename: 2021_07_09__88.png, Filepath: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_09__88.png
+2021-07-09 18:42:05.789 - Upload completed. URL: https://i.imgur.com/rjv2vJn.png, Duration: 2164 ms
+2021-07-09 18:42:05.810 - Task completed. Filename: 2021_07_09__88.png, Duration: 2375 ms
+2021-07-09 19:56:02.467 - Hotkey triggered. Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-09 19:56:02.467 - Executing: Capture entire screen
+2021-07-09 19:56:02.570 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-07-09 19:56:02.578 - Task status: Preparing
+2021-07-09 19:56:02.780 - Image copied to clipboard.
+2021-07-09 19:56:03.022 - Image saved to file: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_09__89.jpg
+2021-07-09 19:56:03.063 - Upload started. Filename: 2021_07_09__89.jpg, Filepath: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_09__89.jpg
+2021-07-09 19:56:04.970 - Upload completed. URL: https://i.imgur.com/o8PcDxW.jpeg, Duration: 1906 ms
+2021-07-09 19:56:04.987 - Task completed. Filename: 2021_07_09__89.jpg, Duration: 2410 ms
+2021-07-10 02:16:11.718 - ShareX closing.
+2021-07-10 02:16:11.718 - ApplicationConfig save started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-10 02:16:12.038 - ApplicationConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-10 02:16:12.038 - UploadersConfig save started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-10 02:16:12.259 - UploadersConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-10 02:16:12.259 - HotkeysConfig save started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-10 02:16:12.447 - HotkeysConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-10 02:16:12.447 - ShareX closed.
+2021-07-11 20:53:45.337 - ShareX starting.
+2021-07-11 20:53:45.341 - Version: 13.5
+2021-07-11 20:53:45.341 - Build: Release
+2021-07-11 20:53:45.341 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-11 20:53:45.341 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-11 20:53:45.342 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-11 20:53:45.342 - Running as elevated process: False
+2021-07-11 20:53:45.355 - Flags: SilentRun
+2021-07-11 20:53:45.408 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-11 20:53:46.209 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-11 20:53:46.220 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-11 20:53:46.255 - MainForm init started.
+2021-07-11 20:53:46.520 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-11 20:53:46.534 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-11 20:53:46.738 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-11 20:53:47.176 - MainForm init finished.
+2021-07-11 20:53:47.842 - Startup time: 2630 ms
+2021-07-11 20:53:47.844 - CommandLine: -silent
+2021-07-11 20:53:47.866 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-11 20:53:47.866 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-11 20:53:47.866 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-11 20:53:47.866 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-11 20:53:47.866 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-11 20:53:47.868 - HotkeyManager started.
+2021-07-11 20:53:47.869 - WatchFolderManager started.
+2021-07-12 00:15:48.450 - ShareX closing.
+2021-07-12 00:15:48.454 - ApplicationConfig save started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-12 00:15:48.713 - ApplicationConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-12 00:15:48.729 - UploadersConfig save started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-12 00:15:48.854 - UploadersConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-12 00:15:48.870 - HotkeysConfig save started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-12 00:15:49.042 - HotkeysConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-12 00:15:49.042 - ShareX closed.
+2021-07-12 10:32:14.269 - ShareX starting.
+2021-07-12 10:32:14.273 - Version: 13.5
+2021-07-12 10:32:14.273 - Build: Release
+2021-07-12 10:32:14.273 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-12 10:32:14.273 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-12 10:32:14.274 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-12 10:32:14.275 - Running as elevated process: False
+2021-07-12 10:32:14.291 - Flags: SilentRun
+2021-07-12 10:32:14.344 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-12 10:32:15.121 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-12 10:32:15.134 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-12 10:32:15.141 - MainForm init started.
+2021-07-12 10:32:15.526 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-12 10:32:15.548 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-12 10:32:15.894 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-12 10:32:16.207 - MainForm init finished.
+2021-07-12 10:32:16.994 - Startup time: 2849 ms
+2021-07-12 10:32:16.997 - CommandLine: -silent
+2021-07-12 10:32:17.029 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-12 10:32:17.029 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-12 10:32:17.029 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-12 10:32:17.029 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-12 10:32:17.029 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-12 10:32:17.032 - HotkeyManager started.
+2021-07-12 10:32:17.033 - WatchFolderManager started.
+2021-07-13 00:01:22.403 - ShareX closing.
+2021-07-13 00:01:22.416 - ApplicationConfig save started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-13 00:01:22.857 - ApplicationConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-13 00:01:22.858 - UploadersConfig save started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-13 00:01:23.098 - UploadersConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-13 00:01:23.099 - HotkeysConfig save started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-13 00:01:23.343 - HotkeysConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-13 00:01:23.344 - ShareX closed.
+2021-07-13 00:06:53.771 - ShareX starting.
+2021-07-13 00:06:53.775 - Version: 13.5
+2021-07-13 00:06:53.775 - Build: Release
+2021-07-13 00:06:53.776 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-13 00:06:53.776 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-13 00:06:53.777 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-13 00:06:53.777 - Running as elevated process: False
+2021-07-13 00:06:53.789 - Flags: SilentRun
+2021-07-13 00:06:53.839 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-13 00:06:54.551 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-13 00:06:54.559 - MainForm init started.
+2021-07-13 00:06:54.559 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-13 00:06:54.819 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-13 00:06:54.824 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-13 00:06:55.019 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-13 00:06:55.294 - MainForm init finished.
+2021-07-13 00:06:55.941 - Startup time: 2304 ms
+2021-07-13 00:06:55.943 - CommandLine: -silent
+2021-07-13 00:06:55.987 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-13 00:06:55.987 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-13 00:06:55.987 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-13 00:06:55.987 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-13 00:06:55.988 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-13 00:06:55.990 - HotkeyManager started.
+2021-07-13 00:06:55.991 - WatchFolderManager started.
+2021-07-13 00:14:47.008 - ShareX closing.
+2021-07-13 00:14:47.008 - ApplicationConfig save started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-13 00:14:47.290 - ApplicationConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-13 00:14:47.290 - UploadersConfig save started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-13 00:14:47.418 - UploadersConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-13 00:14:47.418 - HotkeysConfig save started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-13 00:14:47.574 - HotkeysConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-13 00:14:47.574 - ShareX closed.
+2021-07-13 11:32:07.336 - ShareX starting.
+2021-07-13 11:32:07.340 - Version: 13.5
+2021-07-13 11:32:07.340 - Build: Release
+2021-07-13 11:32:07.340 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-13 11:32:07.340 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-13 11:32:07.341 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-13 11:32:07.341 - Running as elevated process: False
+2021-07-13 11:32:07.355 - Flags: SilentRun
+2021-07-13 11:32:07.370 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-13 11:32:07.731 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-13 11:32:07.738 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-13 11:32:07.740 - MainForm init started.
+2021-07-13 11:32:07.912 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-13 11:32:07.919 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-13 11:32:08.139 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-13 11:32:08.503 - MainForm init finished.
+2021-07-13 11:32:09.117 - Startup time: 1815 ms
+2021-07-13 11:32:09.120 - CommandLine: -silent
+2021-07-13 11:32:09.163 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-13 11:32:09.163 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-13 11:32:09.163 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-13 11:32:09.163 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-13 11:32:09.164 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-13 11:32:09.166 - HotkeyManager started.
+2021-07-13 11:32:09.167 - WatchFolderManager started.
+2021-07-13 15:27:47.992 - Hotkey triggered. Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-13 15:27:47.996 - Executing: Capture entire screen
+2021-07-13 15:27:48.130 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-07-13 15:27:48.198 - Task status: Preparing
+2021-07-13 15:27:48.346 - Image copied to clipboard.
+2021-07-13 15:27:48.468 - Image saved to file: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_13__90.png
+2021-07-13 15:27:48.510 - Upload started. Filename: 2021_07_13__90.png, Filepath: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_13__90.png
+2021-07-13 15:27:51.079 - Upload completed. URL: https://i.imgur.com/LW6sYgc.png, Duration: 2564 ms
+2021-07-13 15:27:51.089 - Task completed. Filename: 2021_07_13__90.png, Duration: 2890 ms
+2021-07-13 16:53:12.531 - Hotkey triggered. Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-13 16:53:12.531 - Executing: Capture active window
+2021-07-13 16:53:12.585 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-07-13 16:53:12.591 - Task status: Preparing
+2021-07-13 16:53:12.661 - Image copied to clipboard.
+2021-07-13 16:53:12.722 - Image saved to file: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_13__91.png
+2021-07-13 16:53:12.750 - Upload started. Filename: 2021_07_13__91.png, Filepath: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_13__91.png
+2021-07-13 16:53:15.520 - Upload completed. URL: https://i.imgur.com/7o80xuD.png, Duration: 2770 ms
+2021-07-13 16:53:15.522 - Task completed. Filename: 2021_07_13__91.png, Duration: 2930 ms
+2021-07-13 16:53:16.139 - Hotkey triggered. Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-13 16:53:16.139 - Executing: Start/Stop screen recording
+2021-07-13 16:53:16.143 - Starting screen recording. Video encoder: "H.264 / x264", Audio encoder: "AAC", FPS: 30
+2021-07-13 16:53:23.043 - Hotkey triggered. Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-13 16:53:23.043 - Executing: Capture active window
+2021-07-13 16:53:23.071 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-07-13 16:53:23.074 - Task status: Preparing
+2021-07-13 16:53:23.089 - Image copied to clipboard.
+2021-07-13 16:53:23.097 - Image saved to file: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_13__92.png
+2021-07-13 16:53:23.105 - Upload started. Filename: 2021_07_13__92.png, Filepath: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_13__92.png
+2021-07-13 16:53:25.014 - Upload completed. URL: https://i.imgur.com/FG0pbW6.png, Duration: 1909 ms
+2021-07-13 16:53:25.016 - Task completed. Filename: 2021_07_13__92.png, Duration: 1941 ms
+2021-07-13 16:53:31.315 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-13 16:53:31.315 - Executing: Capture region
+2021-07-13 16:53:37.828 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-07-13 16:53:37.835 - Task status: Preparing
+2021-07-13 16:53:37.874 - Image copied to clipboard.
+2021-07-13 16:53:37.911 - Image saved to file: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_13__93.png
+2021-07-13 16:53:37.921 - Upload started. Filename: 2021_07_13__93.png, Filepath: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_13__93.png
+2021-07-13 16:53:39.729 - Upload completed. URL: https://i.imgur.com/ReiFvhz.png, Duration: 1808 ms
+2021-07-13 16:53:39.731 - Task completed. Filename: 2021_07_13__93.png, Duration: 1897 ms
+2021-07-13 20:34:15.284 - Hotkey triggered. Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-13 20:34:15.284 - Executing: Capture entire screen
+2021-07-13 20:34:15.412 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-07-13 20:34:15.424 - Task status: Preparing
+2021-07-13 20:34:15.555 - Image copied to clipboard.
+2021-07-13 20:34:15.653 - Image saved to file: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_13__94.png
+2021-07-13 20:34:15.695 - Upload started. Filename: 2021_07_13__94.png, Filepath: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_13__94.png
+2021-07-13 20:34:18.281 - Upload completed. URL: https://i.imgur.com/upqDbAM.png, Duration: 2586 ms
+2021-07-13 20:34:18.284 - Task completed. Filename: 2021_07_13__94.png, Duration: 2861 ms
+2021-07-14 00:02:12.588 - ShareX closing.
+2021-07-14 00:02:12.604 - ApplicationConfig save started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-14 00:02:13.135 - ApplicationConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-14 00:02:13.135 - UploadersConfig save started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-14 00:02:13.292 - UploadersConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-14 00:02:13.292 - HotkeysConfig save started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-14 00:02:13.463 - HotkeysConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-14 00:02:13.463 - ShareX closed.
+2021-07-14 16:47:53.585 - ShareX starting.
+2021-07-14 16:47:53.589 - Version: 13.5
+2021-07-14 16:47:53.589 - Build: Release
+2021-07-14 16:47:53.589 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-14 16:47:53.589 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-14 16:47:53.590 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-14 16:47:53.590 - Running as elevated process: False
+2021-07-14 16:47:53.602 - Flags: SilentRun
+2021-07-14 16:47:53.652 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-14 16:47:54.333 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-14 16:47:54.340 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-14 16:47:54.341 - MainForm init started.
+2021-07-14 16:47:54.551 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-14 16:47:54.558 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-14 16:47:54.745 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-14 16:47:55.052 - MainForm init finished.
+2021-07-14 16:47:55.772 - Startup time: 2311 ms
+2021-07-14 16:47:55.775 - CommandLine: -silent
+2021-07-14 16:47:55.796 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-14 16:47:55.796 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-14 16:47:55.796 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-14 16:47:55.796 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-14 16:47:55.796 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-14 16:47:55.798 - HotkeyManager started.
+2021-07-14 16:47:55.799 - WatchFolderManager started.
+2021-07-14 19:14:57.426 - Hotkey triggered. Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-14 19:14:57.432 - Executing: Capture entire screen
+2021-07-14 19:14:57.618 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-07-14 19:14:57.697 - Task status: Preparing
+2021-07-14 19:14:57.867 - Image copied to clipboard.
+2021-07-14 19:14:57.984 - Image saved to file: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_14__95.png
+2021-07-14 19:14:58.025 - Upload started. Filename: 2021_07_14__95.png, Filepath: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_14__95.png
+2021-07-14 19:15:00.695 - Upload completed. URL: https://i.imgur.com/97xw5QN.png, Duration: 2664 ms
+2021-07-14 19:15:00.707 - Task completed. Filename: 2021_07_14__95.png, Duration: 3008 ms
+2021-07-14 22:10:32.086 - Hotkey triggered. Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-14 22:10:32.087 - Executing: Capture entire screen
+2021-07-14 22:10:32.172 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-07-14 22:10:32.177 - Task status: Preparing
+2021-07-14 22:10:32.307 - Image copied to clipboard.
+2021-07-14 22:10:32.408 - Image saved to file: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_14__96.png
+2021-07-14 22:10:32.451 - Upload started. Filename: 2021_07_14__96.png, Filepath: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_14__96.png
+2021-07-14 22:10:37.535 - Upload completed. URL: https://i.imgur.com/mJbsVFB.png, Duration: 5083 ms
+2021-07-14 22:10:37.547 - Task completed. Filename: 2021_07_14__96.png, Duration: 5370 ms
+2021-07-15 09:27:02.572 - ShareX closing.
+2021-07-15 09:27:02.587 - ApplicationConfig save started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-15 09:27:02.975 - ApplicationConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-15 09:27:02.975 - UploadersConfig save started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-15 09:27:03.106 - UploadersConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-15 09:27:03.106 - HotkeysConfig save started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-15 09:27:03.285 - HotkeysConfig save successful: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-15 09:27:03.285 - ShareX closed.
+2021-07-15 09:33:11.060 - ShareX starting.
+2021-07-15 09:33:11.065 - Version: 13.5
+2021-07-15 09:33:11.065 - Build: Release
+2021-07-15 09:33:11.065 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-15 09:33:11.065 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-15 09:33:11.066 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-15 09:33:11.066 - Running as elevated process: False
+2021-07-15 09:33:11.082 - Flags: SilentRun
+2021-07-15 09:33:11.150 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-15 09:33:12.226 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-15 09:33:12.246 - MainForm init started.
+2021-07-15 09:33:12.249 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-15 09:33:12.712 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-15 09:33:12.727 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-15 09:33:13.076 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-15 09:33:13.251 - MainForm init finished.
+2021-07-15 09:33:14.437 - Startup time: 3538 ms
+2021-07-15 09:33:14.441 - CommandLine: -silent
+2021-07-15 09:33:14.474 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-15 09:33:14.475 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-15 09:33:14.475 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-15 09:33:14.475 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-15 09:33:14.475 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-15 09:33:14.478 - HotkeyManager started.
+2021-07-15 09:33:14.479 - WatchFolderManager started.
+2021-07-17 08:59:56.363 - ShareX starting.
+2021-07-17 08:59:56.369 - Version: 13.5
+2021-07-17 08:59:56.369 - Build: Release
+2021-07-17 08:59:56.369 - Command line: "C:\Program Files\ShareX\ShareX.exe" -silent
+2021-07-17 08:59:56.369 - Personal path: C:\Users\Brandon Chu\Documents\ShareX
+2021-07-17 08:59:56.370 - Operating system: Windows 10 Home Single Language (64-bit)
+2021-07-17 08:59:56.371 - Running as elevated process: False
+2021-07-17 08:59:56.393 - Flags: SilentRun
+2021-07-17 08:59:56.594 - ApplicationConfig load started: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-17 08:59:59.244 - ApplicationConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\ApplicationConfig.json
+2021-07-17 08:59:59.253 - MainForm init started.
+2021-07-17 08:59:59.265 - UploadersConfig load started: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-17 08:59:59.672 - UploadersConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\UploadersConfig.json
+2021-07-17 08:59:59.685 - HotkeysConfig load started: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-17 08:59:59.971 - HotkeysConfig load finished: C:\Users\Brandon Chu\Documents\ShareX\HotkeysConfig.json
+2021-07-17 09:00:00.407 - MainForm init finished.
+2021-07-17 09:00:04.088 - Startup time: 8110 ms
+2021-07-17 09:00:04.095 - CommandLine: -silent
+2021-07-17 09:00:04.130 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2021-07-17 09:00:04.132 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-17 09:00:04.132 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2021-07-17 09:00:04.132 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2021-07-17 09:00:04.132 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2021-07-17 09:00:04.136 - HotkeyManager started.
+2021-07-17 09:00:04.137 - WatchFolderManager started.
+2021-07-17 10:08:08.301 - Executing: Capture region
+2021-07-17 10:08:09.610 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-07-17 10:08:09.677 - Task status: Preparing
+2021-07-17 10:08:09.765 - Image copied to clipboard.
+2021-07-17 10:08:09.842 - Image saved to file: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_17__97.png
+2021-07-17 10:08:09.876 - Upload started. Filename: 2021_07_17__97.png, Filepath: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_17__97.png
+2021-07-17 10:08:12.472 - Upload completed. URL: https://i.imgur.com/snIMG86.png, Duration: 2591 ms
+2021-07-17 10:08:12.485 - Task completed. Filename: 2021_07_17__97.png, Duration: 2803 ms
+2021-07-17 14:03:50.077 - Hotkey triggered. Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2021-07-17 14:03:50.077 - Executing: Capture entire screen
+2021-07-17 14:03:50.171 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-07-17 14:03:50.175 - Task status: Preparing
+2021-07-17 14:03:50.318 - Image copied to clipboard.
+2021-07-17 14:03:50.434 - Image saved to file: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_17__98.png
+2021-07-17 14:03:50.475 - Upload started. Filename: 2021_07_17__98.png, Filepath: C:\Users\Brandon Chu\Documents\ShareX\Screenshots\2021-07\2021_07_17__98.png
+2021-07-17 14:03:53.357 - Upload completed. URL: https://i.imgur.com/G0dnOIj.png, Duration: 2881 ms
+2021-07-17 14:03:53.359 - Task completed. Filename: 2021_07_17__98.png, Duration: 3183 ms

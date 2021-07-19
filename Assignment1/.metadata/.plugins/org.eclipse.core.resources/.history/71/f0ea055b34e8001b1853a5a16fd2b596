@@ -1,0 +1,27 @@
+enum ClassType {
+	HELICOPTER, AIRLINE, GLIDER, BALLOON,
+}
+
+enum MaintenanceType {
+	WEEKLY, MONTHLY, YEARLY,
+}
+
+public class AirCraft extends PublicTransportation {
+
+	// Constructors
+
+	public AirCraft() {
+		super();
+	}
+
+	public AirCraft(double ticketPrice, int numberOfSteps) {
+		super(ticketPrice, numberOfSteps);
+	}
+
+	public AirCraft(AirCraft AirCraft) {
+		super(AirCraft);
+	}
+
+	// Methods
+
+}

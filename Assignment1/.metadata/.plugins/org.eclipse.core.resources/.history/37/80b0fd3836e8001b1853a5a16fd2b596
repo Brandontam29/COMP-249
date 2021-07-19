@@ -1,0 +1,23 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+		AirCraft aircraft = new AirCraft();
+		CityBus citybus = new CityBus();
+		Ferry ferry = new Ferry();
+		Metro metro = new Metro();
+		Tram tram = new Tram();
+		PublicTransportation pt = new PublicTransportation();
+
+		// Display information of each
+		System.out.println(aircraft.toString());
+		aircraft.toString();
+		aircraft.toString();
+		aircraft.toString();
+		aircraft.toString();
+		aircraft.toString();
+		aircraft.toString();
+
+	}
+
+}

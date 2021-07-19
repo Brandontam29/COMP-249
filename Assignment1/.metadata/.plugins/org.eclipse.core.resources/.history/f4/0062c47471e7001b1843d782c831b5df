@@ -1,0 +1,39 @@
+
+public class Tram extends CityBus{
+	
+	private int MAXSPD;
+	
+	public Tram()
+	{
+		super();
+		MAXSPD=0;
+	}
+	public Tram(double ticketprice, int numberofstops, long routenumber, int opyear, String linename, String drivername, int MAXSPD)
+	{
+		super(ticketprice,numberofstops,routenumber,opyear,linename,drivername);
+		this.MAXSPD=MAXSPD;
+	}
+	public Tram(Tram Tram)
+	{
+		super(Tram);
+		MAXSPD=Tram.MAXSPD;
+	}
+	public int getMAXSPD()
+	{
+		return MAXSPD;
+	}
+	public void setMAXSPD(int MAXSPD)
+	{
+		this.MAXSPD=MAXSPD;
+	}
+	public String toString()
+	{
+		return " and it operates at "+ MAXSPD +"km/h";
+	}
+	public boolean equalto(Tram Tram)
+	{
+		if (MAXSPD==Tram.MAXSPD)
+			return true;
+		return false;
+	}
+}

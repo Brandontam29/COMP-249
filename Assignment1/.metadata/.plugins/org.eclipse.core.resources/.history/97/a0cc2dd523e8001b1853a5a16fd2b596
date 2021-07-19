@@ -1,0 +1,58 @@
+//-----------------------------------------------------------------------------------------------------
+//Assignment number 1
+//Written by Kai Yuan Chen 40130869 & Brandon Tam 40100539
+//For COMP 249-U - Summer 2021
+//-----------------------------------------------------------------------------------------------------
+public class PublicTransportation {
+
+	private double ticketPrice;
+	private int numberOfStops;
+
+	public PublicTransportation() // Constructors
+	{
+		ticketPrice = 0;
+		numberOfStops = 0;
+	}
+
+	public PublicTransportation(double ticketPrice, int numberOfStops) {
+		this.ticketPrice = ticketPrice;
+		this.numberOfStops = numberOfStops;
+	}
+	// copy constructor
+
+	public PublicTransportation(PublicTransportation PB) {
+		ticketPrice = PB.ticketPrice;
+		numberOfStops = PB.numberOfStops;
+	}
+
+	// Methods
+	public String toString() 
+	{
+		return "The total travel is going to cost " + ticketPrice + " and it is going to have " + numberOfStops
+				+ " stops.";
+	}
+
+	public boolean ticketPrice(PublicTransportation PublicTransportation) {
+		if (ticketPrice == PublicTransportation.ticketPrice && numberOfStops == PublicTransportation.numberOfStops)
+			return true;
+		return false;
+	}
+
+	// Getters and Setters
+
+	public double getTicketPrice() {
+		return ticketPrice;
+	}
+
+	public void setTicketPrice(double ticketPrice) {
+		this.ticketPrice = ticketPrice;
+	}
+
+	public int getNumberOfStops() {
+		return numberOfStops;
+	}
+
+	public void setNumberOfStops(int numberOfStops) {
+		this.numberOfStops = numberOfStops;
+	}
+}

@@ -6,7 +6,7 @@ import PublicTransportation.PublicTransportation;
 public class CityBus extends PublicTransportation {
 
 	// Data Members
-	protected long routeNumber;// these variables are all protected, and can be access to the sub classes
+	protected long routeNumber;// these variables are all proteceted, and can be access to the sub classes
 								// within the same package. We also use
 	protected int operationYear;// it because it is the only package out of the three that has sub classes.
 	protected String lineName;

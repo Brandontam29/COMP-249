@@ -67,10 +67,4 @@ public abstract class Package {
 	public void setMaxLoad(float maxLoad) {
 		this.maxLoad = maxLoad;
 	}
-
-	// least significant tracking number
-	// 0 letter
-	// 1 box crate
-	// 2 wooden crate
-	// 3 metal crate
 }

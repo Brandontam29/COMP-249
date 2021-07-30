@@ -1,5 +1,10 @@
 package shippingMethod;
 
-public class Crate extends Package {
+public abstract class Crate extends Package {
 
+	// Constructors
+	public Crate(int trackingNumber, float weight) {
+		super(trackingNumber, weight);
+
+	}
 }

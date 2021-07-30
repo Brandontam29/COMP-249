@@ -10,8 +10,7 @@ public class Letter extends Package {
 
 		setMaxLoad(2.00f);
 
-		float shippingCost = (float) (weight * 0.05);
+		float shippingCost = weight * 0.05f;
 		super.setShippingCost(shippingCost);
 	}
-
 }

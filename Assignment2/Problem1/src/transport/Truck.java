@@ -1,3 +1,5 @@
+package transport;
+
 import shippingMethod.Package;
 
 public class Truck {
@@ -7,15 +9,14 @@ public class Truck {
 	private String originatingCity = "N/A";
 	private String destinationCity = "N/A";
 
-	private int unloadedWeight;
-	private int drivenWeight;
+	private int unloadedWeight; // In pounds
 	private int loadedWeight;
 
-	private int packageCount;
+	private int packageCount = 0;
 	final private int MAX_PACKAGE_COUNT = 200;
 	private Package[] packages = new Package[MAX_PACKAGE_COUNT];
 
-	private int grossIncome; // costs of all packages
+	private float grossIncome = 0; // costs of all packages
 
 	// Constructors
 	public Truck(String driverName) {
@@ -25,17 +26,29 @@ public class Truck {
 	public Truck(String driverName, int unloadedWeight, String originatingCity, String destinationCity) {
 		this.driverName = driverName;
 		this.unloadedWeight = unloadedWeight;
+		this.loadedWeight = unloadedWeight;
 		this.originatingCity = originatingCity;
 		this.destinationCity = destinationCity;
 	}
 
 	// Methods
 	public void loadPackage(int spot, Package cargo) {
-		this.packages[spot] = cargo;
+		if (this.packages[spot] == null) {
+			this.packages[spot] = cargo;
+			this.packageCount += 1;
+			this.grossIncome += cargo.getShippingCost();
+			this.loadedWeight += cargo.getWeight();
+		} else {
+			throw()
+		}
+
 	}
 
-	public void unloadPackage(int spot) {
+	public void unloadPackage(int spot, Package cargo) {
 		this.packages[spot] = null;
+		this.packageCount -= 1;
+		this.grossIncome -= cargo.getShippingCost();
+		this.loadedWeight -= cargo.getWeight();
 	}
 
 	// Conversion
@@ -84,20 +97,16 @@ public class Truck {
 		this.unloadedWeight = unloadedWeight;
 	}
 
-	public int getDrivenWeight() {
-		return drivenWeight;
-	}
-
-	public void setDrivenWeight(int drivenWeight) {
-		this.drivenWeight = drivenWeight;
-	}
-
 	public int getLoadedWeight() {
 		return loadedWeight;
 	}
 
 	public void setLoadedWeight(int loadedWeight) {
 		this.loadedWeight = loadedWeight;
+	}
+
+	public int getMAX_PACKAGE_COUNT() {
+		return MAX_PACKAGE_COUNT;
 	}
 
 	public int getPackageCount() {
@@ -116,11 +125,13 @@ public class Truck {
 		this.packages = packages;
 	}
 
-	public int getGrossIncome() {
-		return grossIncome;
+	// Prevent floating point rounding error
+	public float getGrossIncome() {
+		float rounded = Math.round(grossIncome * 100f) / 100f;
+		return rounded;
 	}
 
-	public void setGrossIncome(int grossIncome) {
+	public void setGrossIncome(float grossIncome) {
 		this.grossIncome = grossIncome;
 	}
 }

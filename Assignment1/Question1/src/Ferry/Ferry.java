@@ -3,14 +3,12 @@ import PublicTransportation.PublicTransportation;
 
 public class Ferry extends PublicTransportation {
 	// Data Members
-	private int buildYear;
-	private String shipName;
+	private int buildYear = 0;
+	private String shipName = "N/A";
 
 	// Constructors
 	public Ferry() {
 		super();
-		buildYear = 0;
-		shipName = null;
 	}
 
 	public Ferry(double ticketPrice, int numberOfStops, int buildYear, String shipName) {

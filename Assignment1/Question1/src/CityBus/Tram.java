@@ -3,12 +3,11 @@ package CityBus;
 public class Tram extends CityBus {
 
 	// Data Members
-	private int maxSpeed;
+	private int maxSpeed = 0;
 
 	// Constructors
 	public Tram() {
 		super();
-		maxSpeed = 0;
 	}
 
 	public Tram(double ticketPrice, int numberOfStops, long routeNumber, int operationYear, String lineName,

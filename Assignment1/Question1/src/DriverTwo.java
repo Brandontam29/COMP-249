@@ -19,7 +19,6 @@ public class DriverTwo {
 
 		for (int i = 0; i < copyArr.length; i++) {
 			String option = arr[i].getClass().getName();
-			System.out.println(option);
 			switch (option) {
 			case "PublicTransportation.PublicTransportation":
 				copyArr[i] = new PublicTransportation(arr[i]);

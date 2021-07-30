@@ -8,16 +8,13 @@ package PublicTransportation;
 public class PublicTransportation {
 
 	// Data members
-	private double ticketPrice;
-	private int numberOfStops;
+	private double ticketPrice = 0d;
+	private int numberOfStops = 0;
 	// These variables are private since they do not need to be protected as this
 	// package do not possess a sub class to use these variables in
 
 	// Constructors
 	public PublicTransportation() {
-		this.ticketPrice = 0.0d;
-		this.numberOfStops = 0;
-
 	}
 
 	public PublicTransportation(double ticketPrice, int numberOfStops) {

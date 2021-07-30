@@ -2,14 +2,12 @@ package CityBus;
 
 public class Metro extends CityBus {
 	// Data Members
-	private int numberOfVehicles;
-	private String cityName;
+	private int numberOfVehicles = 0;
+	private String cityName = "N/A";
 
 	// Constructors
 	public Metro() {
 		super();
-		numberOfVehicles = 0;
-		cityName = null;
 	}
 
 	public Metro(double ticketPrice, int numberOfStops, long routeNumber, int operationYear, String lineName,

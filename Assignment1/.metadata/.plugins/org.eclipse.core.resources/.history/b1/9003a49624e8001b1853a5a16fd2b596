@@ -1,7 +1,0 @@
-
-public class Ferry {
-	// Data Members
-	private int buildYear;
-	private String shipName;
-	
-}

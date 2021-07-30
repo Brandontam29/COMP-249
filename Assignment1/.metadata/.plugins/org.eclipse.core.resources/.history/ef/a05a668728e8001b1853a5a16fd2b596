@@ -1,9 +1,0 @@
-
-public class Metro extends CityBus{
-	// Data Members
-	private int numberOfVehicles;
-	private String cityName;
-	
-	
-
-}

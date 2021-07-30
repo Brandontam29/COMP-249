@@ -1,9 +1,0 @@
-
-public class AirCraft extends CityBus {
-	public enum classType {
-		HELICOPTER, 
-		AIRLINE, 
-		GLIDER, 
-		BALLOON,
-	}
-}

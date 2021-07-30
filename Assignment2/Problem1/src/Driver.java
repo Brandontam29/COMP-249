@@ -1,7 +1,6 @@
 import java.util.Scanner;
-import shippingMethod.Letter;
 
-public class CargoTest {
+public class Driver {
 	public static void main(String[] args) {
 		// Program introduction
 		System.out.println(
@@ -26,22 +25,5 @@ public class CargoTest {
 		int option;
 		Truck truck = new Truck("Kai Yuan Chen");
 
-		for (int i = 0; i < truck.getPackageCount(); i++) {
-			
-			truck.addPackage(i, );
-		}
-
 	}
-
-	public Package generatePackage() {
-		int packageType = (int) Math.random() * 4;
-		
-		switch(packageType) {
-		case 0:
-			Letter package = new Letter(7654, 4.00f);
-		}
-		
-		
-		
-	}return package;
 }

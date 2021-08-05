@@ -1,5 +1,6 @@
 package transport;
 
+import exception.PackageException;
 import shippingMethod.Package;
 
 public class Truck {
@@ -9,8 +10,8 @@ public class Truck {
 	private String originatingCity = "N/A";
 	private String destinationCity = "N/A";
 
-	private int unloadedWeight; // In pounds
-	private int loadedWeight;
+	private float unloadedWeight; // In pounds
+	private float loadedWeight;
 
 	private int packageCount = 0;
 	final private int MAX_PACKAGE_COUNT = 200;
@@ -23,7 +24,7 @@ public class Truck {
 		this.driverName = driverName;
 	}
 
-	public Truck(String driverName, int unloadedWeight, String originatingCity, String destinationCity) {
+	public Truck(String driverName, float unloadedWeight, String originatingCity, String destinationCity) {
 		this.driverName = driverName;
 		this.unloadedWeight = unloadedWeight;
 		this.loadedWeight = unloadedWeight;
@@ -32,34 +33,104 @@ public class Truck {
 	}
 
 	// Methods
-	public void loadPackage(int spot, Package cargo) {
-		if (this.packages[spot] == null) {
-			this.packages[spot] = cargo;
-			this.packageCount += 1;
-			this.grossIncome += cargo.getShippingCost();
-			this.loadedWeight += cargo.getWeight();
+	public void loadPackage(Package cargo) throws PackageException {
+		if (packageCount >= MAX_PACKAGE_COUNT) {
+			throw new PackageException("Cannot load package. Truck is full. Get some space by unloading.");
+		}
+
+		if (!cargo.isValid()) {
+			return;
+		}
+
+		int emptyIndex = 300;
+
+		for (int i = 0; i < MAX_PACKAGE_COUNT; i++) {
+			if (packages[i] == null) {
+				emptyIndex = i;
+				break;
+			}
+		}
+
+		this.packages[emptyIndex] = cargo;
+		this.packageCount += 1;
+		this.grossIncome += cargo.getShippingCost();
+		this.loadedWeight += cargo.getWeight();
+		if (this.getClass().getSimpleName().equals("Letter")) {
+			this.loadedWeight += this.toPounds(cargo.getWeight());
 		} else {
-			throw()
+			this.loadedWeight += cargo.getWeight();
 		}
 
 	}
 
-	public void unloadPackage(int spot, Package cargo) {
-		this.packages[spot] = null;
+	public void loadPackage(int index, Package cargo) throws PackageException {
+		if (packageCount >= MAX_PACKAGE_COUNT) {
+			throw new PackageException("Cannot load package. Truck is full. Get some space by unloading.");
+		}
+		if (this.packages[index] != null) {
+			throw new PackageException("Cannot load package. This spot is taken");
+		}
+		if (!cargo.isValid()) {
+			return;
+		}
+
+		this.packages[index] = cargo;
+		this.packageCount += 1;
+		this.grossIncome += cargo.getShippingCost();
+		if (this.getClass().getSimpleName().equals("Letter")) {
+			this.loadedWeight += this.toPounds(cargo.getWeight());
+		} else {
+			this.loadedWeight += cargo.getWeight();
+		}
+	}
+
+	public void unloadPackage() throws PackageException {
+		int index = 0;
+		for (int i = MAX_PACKAGE_COUNT - 1; i >= 0; i--) {
+			if (packages[i] != null) {
+				index = i;
+				break;
+			}
+		}
+
+		if (this.getClass().getSimpleName().equals("Letter")) {
+			this.loadedWeight -= this.toPounds(packages[index].getWeight());
+		} else {
+			this.loadedWeight -= packages[index].getWeight();
+		}
+		this.grossIncome -= packages[index].getShippingCost();
+
 		this.packageCount -= 1;
-		this.grossIncome -= cargo.getShippingCost();
-		this.loadedWeight -= cargo.getWeight();
+		this.packages[index] = null;
+
+	}
+
+	public void unloadPackage(int index) throws PackageException {
+		if (this.packages[index] == null) {
+			throw new PackageException("Cannot unload this package. This spot is already empty.");
+		}
+
+		if (this.getClass().getSimpleName().equals("Letter")) {
+			this.loadedWeight -= this.toPounds(packages[index].getWeight());
+		} else {
+			this.loadedWeight -= packages[index].getWeight();
+		}
+		this.grossIncome -= packages[index].getShippingCost();
+
+		this.packageCount -= 1;
+		this.packages[index] = null;
+
 	}
 
 	// Conversion
-	public double toKilograms(double pounds) {
-		double kilograms = pounds / 2.205;
+	public float toKilograms(float pounds) {
+		float kilograms = pounds / 2.205f;
 
 		return kilograms;
 	}
 
-	public double toPounds(double kilograms) {
-		double pounds = kilograms * 2.205;
+	public float toPounds(float kilograms) {
+		float pounds = kilograms * 2.205f;
 
 		return pounds;
 	}
@@ -89,19 +160,19 @@ public class Truck {
 		this.destinationCity = destinationCity;
 	}
 
-	public int getUnloadedWeight() {
+	public float getUnloadedWeight() {
 		return unloadedWeight;
 	}
 
-	public void setUnloadedWeight(int unloadedWeight) {
+	public void setUnloadedWeight(float unloadedWeight) {
 		this.unloadedWeight = unloadedWeight;
 	}
 
-	public int getLoadedWeight() {
+	public float getLoadedWeight() {
 		return loadedWeight;
 	}
 
-	public void setLoadedWeight(int loadedWeight) {
+	public void setLoadedWeight(float loadedWeight) {
 		this.loadedWeight = loadedWeight;
 	}
 

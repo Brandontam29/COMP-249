@@ -2,6 +2,8 @@ package main;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -26,28 +28,34 @@ public class SubDictionary {
 	}
 
 	// Public Methods
-	public void printAll() {
+	public void generateFile() {
+
 		int size = this.aList.size();
 		char currentLetter = 'A' - 1;
 
-		System.out.println("The document produced this sub-dictionary, which includes " + size + " entries.");
+		try {
+			PrintWriter myWriter = new PrintWriter("SubDictionary.txt");
+			myWriter.println("The document produced this sub-dictionary, which includes " + size + " entries.");
 
-		for (int i = 0; i < size; i++) {
-			if (this.aList.get(i).startsWith(String.valueOf(currentLetter))) {
-				System.out.println(this.aList.get(i));
-			} else {
-				while (!this.aList.get(i).startsWith(String.valueOf(currentLetter))) {
-					currentLetter += 1;
+			for (int i = 0; i < size; i++) {
+				if (this.aList.get(i).startsWith(String.valueOf(currentLetter))) {
+					myWriter.println(this.aList.get(i));
+
+				} else {
+					while (!this.aList.get(i).startsWith(String.valueOf(currentLetter))) {
+						currentLetter += 1;
+					}
+
+					myWriter.println("\n" + currentLetter + "\n==");
+					myWriter.println(this.aList.get(i));
 				}
-
-				System.out.println("\n" + currentLetter + "\n==");
-				System.out.println(this.aList.get(i));
 			}
-		}
-	}
 
-	public int getSize() {
-		return this.aList.size();
+			myWriter.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
 	}
 
 	// Private Methods
@@ -101,8 +109,7 @@ public class SubDictionary {
 
 	private void filterArray(ArrayList<String> aList) {
 		// Find exception
-//		ArrayList<String> exceptions = findException(aList);
-//		System.out.println(exceptions);
+		ArrayList<String> exceptions = findException(aList);
 
 		// Remove words with 's or 'm
 		removeContractions(aList);
@@ -117,7 +124,7 @@ public class SubDictionary {
 		removeSingleLetter(aList);
 
 		// Add the exceptions
-//		aList.addAll(exceptions);
+		aList.addAll(exceptions);
 
 		// Remove empty
 		removeEmpty(aList);
@@ -127,24 +134,23 @@ public class SubDictionary {
 
 	}
 
-//	private ArrayList<String> findException(ArrayList<String> aList) {
-//		ArrayList<String> temp = new ArrayList<String>();
-//
-//		for (int i = 0; i < aList.size(); i++) {
-//			System.out.println(aList.get(i));
-//			if (aList.get(i).contains("MC\u00B2")) {
-//				aList.get(i).replace(\u002c', "adgasdfasdf");
-//				temp.add(aList.get(i));
-//				aList.set(i, "");
-//			}
-//		}
-//		return temp;
-//
-//	}
+	private ArrayList<String> findException(ArrayList<String> aList) {
+		ArrayList<String> temp = new ArrayList<String>();
+
+		for (int i = 0; i < aList.size(); i++) {
+			if (aList.get(i).contains("MC\u00B2") || aList.get(i).contains("MC\uFFFD")) {
+				temp.add("MC\u00B2");
+				aList.set(i, "");
+			}
+		}
+		return temp;
+	}
 
 	private void removeContractions(ArrayList<String> aList) {
-		aList.replaceAll(s -> s.replaceAll("'M", ""));
-		aList.replaceAll(s -> s.replaceAll("'S", ""));
+		aList.replaceAll(s -> s.replaceAll("\u0027M", ""));
+		aList.replaceAll(s -> s.replaceAll("\u2019M", ""));
+		aList.replaceAll(s -> s.replaceAll("\u0027S", ""));
+		aList.replaceAll(s -> s.replaceAll("\u2019S", ""));
 	}
 
 	private void removeSymbols(ArrayList<String> aList) {

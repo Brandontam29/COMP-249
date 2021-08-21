@@ -1,36 +1,36 @@
 package main;
 
-public class Node {
-		// Variables
-		int generic;
-		Node next;
+public class Node<T> {
+	// Variables
+	T generic;
+	Node<T> next;
 
-		// Constructors
-		public Node(int data) {
-			this.generic = data;
-			next = null;
-		}
+	// Constructors
+	public Node(T data) {
+		this.generic = data;
+		next = null;
+	}
 
-		public Node(int data, Node next) {
-			this.generic = data;
-			this.next = next;
-		}
+	public Node(T data, Node<T> next) {
+		this.generic = data;
+		this.next = next;
+	}
 
-		// Getters and Setters
-		public int getData() {
-			return this.generic;
-		}
+	// Getters and Setters
+	public T getData() {
+		return this.generic;
+	}
 
-		public void setValue(int data) {
-			this.generic = data;
-		}
+	public void setValue(T data) {
+		this.generic = data;
+	}
 
-		public Node getNext() {
-			return this.next;
-		}
+	public Node<T> getNext() {
+		return this.next;
+	}
 
-		public void setNext(Node next) {
-			this.next = next;
-		}
+	public void setNext(Node<T> next) {
+		this.next = next;
+	}
 
 }

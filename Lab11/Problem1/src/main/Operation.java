@@ -1,8 +1,8 @@
 package main;
 
-public class Operation {
+public class Operation<T> {
 	// Variables
-	Node head;
+	Node<T> head;
 	int count;
 
 	// Constructors
@@ -11,15 +11,15 @@ public class Operation {
 		this.count = 0;
 	}
 
-	public Operation(Node head) {
+	public Operation(Node<T> head) {
 		this.head = head;
 		this.count = 1;
 	}
 
 	// Methods
-	public void addNode(int generic) {
-		Node current = head;
-		Node temp = new Node(generic);
+	public void addNode(T generic) {
+		Node<T> current = head;
+		Node<T> temp = new Node<T>(generic);
 
 		if (current == null) {
 			this.head = temp;
@@ -35,7 +35,7 @@ public class Operation {
 	}
 
 	public void removeNode() {
-		Node current = head;
+		Node<T> current = head;
 
 		if (current == null) {
 			System.out.println("no Nodes to remove, empty Linked List");
